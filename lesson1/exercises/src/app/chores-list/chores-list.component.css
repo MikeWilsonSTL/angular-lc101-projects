@@ -1,0 +1,25 @@
+/* Use a different font, with a size large enough to easily read.
+
+The text color should be different from the movie list, but not black.
+
+The chores list should have an underlined heading.
+
+The chores in the list should be italicized */
+
+.chores {
+  font-family: "Courier New", Courier, monospace;
+  color: darkgreen;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+li {
+  font-style: italic;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}

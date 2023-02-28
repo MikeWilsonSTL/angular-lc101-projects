@@ -1,19 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'fav-photos',
-  templateUrl: './fav-photos.component.html',
-  styleUrls: ['./fav-photos.component.css']
+  selector: "fav-photos",
+  templateUrl: "./fav-photos.component.html",
+  styleUrls: ["./fav-photos.component.css"],
 })
 export class FavPhotosComponent implements OnInit {
-  photosTitle = 'Photo/Image Section Title Here';
-  image1 = 'https://www.launchcode.org/assets/icons/target-00c7a0bc7776901e3c5cdc4c36c465f19e41a249bc7267a595f0bfa14ab944b7.png';
-  image2 = '';
-  image3 = '';
+  photosTitle = "Literally the best photos ever taken";
+  image1 =
+    "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Meme_Man_on_transparent_background.webp/316px-Meme_Man_on_transparent_background.webp.png";
+  image2 =
+    "https://toppng.com/uploads/preview/meme-man-front-surreal-meme-head-11562906495lzskbnjfzp.png";
+  image3 =
+    "https://toppng.com/uploads/preview/report-abuse-meme-man-transparent-background-11563029346mjjzl6edyd.png";
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
